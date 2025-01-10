@@ -1,2 +1,10 @@
+# Ignore all build directories
+build/
+
+# Ignore all user directories
+user/
+
 teht1/build
 teht1/*.user
+vkteht1/build
+vkteht1/*.user
