@@ -1,9 +1,9 @@
 #include "asiakas.h"
 
 Asiakas::Asiakas(string u, double r)
-    : nimi(u), kayttotili(u), luottotili(u,r){
-    // välitetään parametrit konstruktoriin
-
+    : /*nimi(u),*/ kayttotili(u), luottotili(u,r){
+    // välitetään pankki- ja luottotilin parametrit konstruktoriin
+    nimi = u; //otetaan private muuttuja asiakas.h filestä
     cout << "Asiakas luotu: " << nimi << endl;
 }
 
